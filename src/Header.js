@@ -9,7 +9,7 @@ export default function Header(){
              <Navbar.Brand href="#home">To DO</Navbar.Brand>
              <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
-               <form onSubmit={handleLogin} >
+               <form >
                <input type="text" placeholder="username" name="username"></input>
                <input type="password" placeholder="password" name="password"></input>
                <button className="btn1" type="submit"  >Login</button>
